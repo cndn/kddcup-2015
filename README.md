@@ -32,7 +32,7 @@ There are 45 total features we have tested on.
     23 - 31) X_X_time_1800 - number of operations which last more than 1800 seconds (half an hour)<br>
     32 - 40) X_X_time_40 - number of operations which last less than 40 seconds (maybe indication for frequent skip[1]) <br>
     41 - 44) interval_i (i = 1,2,3,4) - time span between recent participation and the last one of it, if less than 4 participation, set to 30( To be open to question)<br>
-    45 course_id - since there are not too many courses(20+)<br>
+    45 course_id - since there are not too many courses, 38 to be exact.<br>
 
 Here what an operation "lasts" indicates may differ from different operations. For video, it means the
 watching lasts for some time; while for "page_close", the user may leave for some time before come back again.
