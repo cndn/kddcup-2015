@@ -28,9 +28,9 @@ There are 45 total features we have tested on.
 3.Time features<br>
     14 - 22) X_X_time - total time cost of a certain behavior (time cost for behavior A is defined
     as the time span between A and its next operation, operation of more than 2 hours would be dropped)<br><br>
-    23 - 31) X_X_time_1800 - number of operations which last more than 1800 seconds (half an hour)<br>
+    23 - 31) X_X_time_1800 - number of operations which last more than 1800 seconds (half an hour)<br><br>
     32 - 40) X_X_time_40 - number of operations which last less than 40 seconds (maybe indication for frequent skip[1]) <br><br>
-    41 - 44) interval_i (i = 1,2,3,4) - time span between recent participation and the last one of it, if less than 4 participation, set to 30( To be open to question)<br>
+    41 - 44) interval_i (i = 1,2,3,4) - time span between recent participation and the last one of it, if less than 4 participation, set to 30( To be open to question)<br><br>
     45) course_id - since there are not too many courses, 38 to be exact.<br>
 
 Here what an operation "lasts" indicates may differ from different operations. For video, it means the
