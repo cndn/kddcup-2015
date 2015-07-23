@@ -15,7 +15,7 @@ There are 45 total features we have tested on.
     4) learnedObject - number of objects a user has browsed<br>
 
 2.User behavior <br>
-    5) access_browser - total number of "access" combined with "browser"<br>
+    5) access_browser - total number of "access" combined with "browser"-----------------------------------<br>
     6) access_server - total number of "access" combined with "server"<br>
     7) discussion_server - total number of "discussion" combined with "server"<br>
     8) navigate_server - total number of "navigate" combined with "server"<br>
@@ -26,9 +26,8 @@ There are 45 total features we have tested on.
     13) wiki_server - total number of "wiki" combined with "server"<br>
 
 3.Time features<br>
-
-
-    14 - 22) X_X_time - total time cost of a certain behavior (time cost for behavior A is defined as the time span between A and its next operation, operation of more than 2 hours would be dropped)<br>
+    14 - 22) X_X_time - total time cost of a certain behavior (time cost for behavior A is defined
+    as the time span between A and its next operation, operation of more than 2 hours would be dropped)<br>
     23 - 31) X_X_time_1800 - number of operations which last more than 1800 seconds (half an hour)<br>
     32 - 40) X_X_time_40 - number of operations which last less than 40 seconds (maybe indication for frequent skip[1]) <br>
     41 - 44) interval_i (i = 1,2,3,4) - time span between recent participation and the last one of it, if less than 4 participation, set to 30( To be open to question)<br>
